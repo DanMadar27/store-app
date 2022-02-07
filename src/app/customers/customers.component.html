@@ -1,0 +1,9 @@
+<div>
+  <h1>Customers</h1>
+  <ul>
+    <li *ngFor="let customer of customers;">
+    <app-customer [id]="customer.id">
+    </app-customer>
+    </li>      
+  </ul>
+</div>

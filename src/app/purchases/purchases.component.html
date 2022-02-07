@@ -1,0 +1,9 @@
+<div>
+  <h1>Purchases</h1>
+  <ul>
+    <li *ngFor="let purchase of purchases;">
+      <app-purchase [id]="purchase.id">
+      </app-purchase>
+    </li>      
+  </ul>
+</div>

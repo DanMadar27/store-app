@@ -1,0 +1,9 @@
+<div>
+  <h1>Supplies</h1>
+  <ul>
+    <li *ngFor="let supply of supplies;">
+      <app-supply [id]="supply.id" [name]="supply.name">
+      </app-supply>
+    </li>      
+  </ul>
+</div>
